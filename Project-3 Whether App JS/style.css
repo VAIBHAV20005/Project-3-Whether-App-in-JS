@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,Montserrat,Raleway;
+}
+body{
+    background-color: rgb(39, 136, 174);
+}
+.inputbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    cursor: pointer;    
+    font-size: 30px;
+}
+#userinput{
+    padding: 8px;
+    height: 60px;
+    width: 400px;
+    border:3px;
+    border-radius: 40px;   
+    font-size: 20px;
+    font-family:'Arial Narrow Bold', sans-serif;
+    
+    
+}
+#img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+#whether{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#message{
+    font-size: 20px;
+    display: inline;
+    margin-left: 550px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: greenyellow;
+
+
+}
